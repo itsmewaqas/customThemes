@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Avanza One</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+<!--datetimepicker css-->
+<link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+<!--datetimepicker css end-->
+<!--select2 css-->
+<link href="assets/css/select2.css" type="text/css" rel="stylesheet" />
+<!--select2 css end-->
+<!--dataTables css-->
+<link href="assets/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!--dataTables css end-->
+<!--editor css-->
+<link href="assets/css/summernote.css" rel="stylesheet" type="text/css" />
+<!--editor css end-->
+<!--checkbox tree menu css-->
+<link href="assets/css/checkboxtree.css" rel="stylesheet" type="text/css" />
+<!--checkbox tree menu css end-->
+<!--fileupload css-->
+<link href="assets/css/jasny-bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!--fileupload css end-->
+<!--bootstrap timepicker css-->
+<link href="assets/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css" />
+<!--bootstrap timepicker css end-->
+<!--bootstrap touchspi css-->
+<link href="assets/css/jquery.bootstrap-touchspin.css" rel="stylesheet" type="text/css" />
+<!--bootstrap touchspi css end-->
+<!--gridstack css-->
+<link href="assets/css/gridstack.css" rel="stylesheet" type="text/css" />
+<!--gridstack css end-->
+<!--Virtual Keyboard css-->
+<link href="assets/css/softkeys-0.0.1.css" rel="stylesheet" type="text/css" />
+<!--Virtual Keyboard css end-->
+<!--owl carousel css -->
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/owl.theme.css" rel="stylesheet" type="text/css" />
+<!--owl carousel css end-->
+<!--treegrid css-->
+<link href="assets/css/jquery.treegrid.css" rel="stylesheet" type="text/css" />
+<!--treegrid css end-->
+<!--jquery text editor css-->
+<link href="assets/css/jquery-text-editor.css" type="text/css" rel="stylesheet" />
+<!--jquery text editor css end-->
+<!--any chart css-->
+<link rel="stylesheet" type="text/css" href="assets/css/anychart.css" />
+<!--anychart css end-->
+<!--bootstrap tagsinput css-->
+<link type="text/css" rel="stylesheet" href="assets/css/bootstrap-tagsinput.css" />
+<!--bootstrap tagsinput css end-->
+<!--star rating css-->
+<link rel="stylesheet" type="text/css" href="assets/css/star-rating.css" />
+<!--star rating css end-->
+</head>
+<body style="height: auto;">
+<script>
+function check(form){
+  if(form.userid.value == "admin" && form.userpw.value == "admin"){
+     window.open('dashboard.html')
+  }
+  else{
+     alert("Error Password or Username")
+  }
+}
+</script>
+<div class="login-main">
+<a href="javascript:;" class="logo"><img src="assets/images/logo.png" alt="" /></a>
+<h1>Welcome to Login</h1>
+<form action="" method="POST">
+<div class="login-main-form">
+<input type="text" class="form-control" name="userid" placeholder="USERNAME" required="" />
+<input type="password" class="form-control" name="userpw" placeholder="PASSWORD" required="" />
+<button class="btn login_Btn loading-button" onclick="check(this.form)"><img class="loader" src="assets/images/button-loader.gif" alt=""  /> LOGIN</button>
+</div>
+</form>
+</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script> 
+<script type="text/javascript" src="assets/js/modernizr.min.js"></script> 
+<script type="text/javascript" src="assets/js/jquery-ui.js"></script> 
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script> 
+<!--datetimepicker js--> 
+<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.js"></script> 
+<!--datetimepicker js end--> 
+<!--select2 js--> 
+<script type="text/javascript" src="assets/js/select2.js"></script> 
+<!--select2 js end--> 
+<!--sparkline js--> 
+<script type="text/javascript" src="assets/js/jquery.sparkline.js"></script> 
+<!--sparkline js end--> 
+<!--dataTables js--> 
+<script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="assets/js/dataTables.bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/datatable-custom-function.js"></script> 
+<!--dataTables js end--> 
+<!--editor js--> 
+<script type="text/javascript" src="assets/js/summernote.js"></script> 
+<script type="text/javascript" src="assets/js/editor-code.js"></script> 
+<!--editor js end--> 
+<!--checkbox tree menu js--> 
+<script type="text/javascript" src="assets/js/checkboxtree.js"></script> 
+<script type="text/javascript" src="assets/js/checkboxtree-data.js"></script> 
+<!--checkbox tree menu js end--> 
+<!--fileupload js--> 
+<script type="text/javascript" src="assets/js/jasny-bootstrap.min.js"></script> 
+<!--fileupload js end--> 
+<!--bootstrap timepicker js--> 
+<script type="text/javascript" src="assets/js/bootstrap-timepicker.min.js"></script> 
+<!--bootstrap timepicker js end--> 
+<!--bootstrap touchspin js--> 
+<script type="text/javascript" src="assets/js/jquery.bootstrap-touchspin.js"></script> 
+<!--bootstrap touchspin js end--> 
+<!--gridstack js--> 
+<script type="text/javascript" src="assets/js/lodash.min.js"></script> 
+<script type="text/javascript" src="assets/js/gridstack.js"></script> 
+<script type="text/javascript" src="assets/js/gridstack.jQueryUI.js"></script> 
+<!--gridstack js end--> 
+<!--Virtual Keyboard js--> 
+<script type="text/javascript"  src="assets/js/softkeys-0.0.1.js"></script> 
+<!--Virtual Keyboard js end--> 
+<!--owl carousel js--> 
+<script type="text/javascript" src="assets/js/owl.carousel.js"></script> 
+<!--owl carousel js end--> 
+<!--treegrid js--> 
+<script type="text/javascript" src="assets/js/jquery.treegrid.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.treegrid.bootstrap2.js"></script> 
+<!--treegrid js end--> 
+<!--jquery text editor js--> 
+<script type="text/javascript" src="assets/js/jquery-text-editor.js" charset="utf-8"></script> 
+<!--jquery text editor js end--> 
+<!--show hide text field value plugin--> 
+<script type="text/javascript" src="assets/js/bootstrap-show-password.js"></script> 
+<!--show hide text field value plugin end--> 
+<!--any chart js-->
+<script type="text/javascript" src="assets/js/any-chart-main.js"></script>
+<script type="text/javascript" src="assets/js/any-chart-functions.js"></script>
+<!--any chart js end-->
+<!--sparkline js--> 
+<script type="text/javascript" src="assets/js/jquery.sparkline.js"></script> 
+<!--sparkline js end--> 
+<!--cricle pie chart--> 
+<script type="text/javascript" src="assets/js/cricle-pie-chart.js"></script>
+<script type="text/javascript" src="assets/js/cricle-pie-chart-function.js"></script>
+<!--cricle pie chart end-->
+<!--star rating js-->
+<script type="text/javascript" src="assets/js/star-rating.js"></script>
+<script type="text/javascript" src="assets/js/star-rating-function.js"></script>
+<!--star rating js end-->
+<!--bootstrap tagsinput js-->
+<script type="text/javascript" src="assets/js/bootstrap-tagsinput.min.js"></script>
+<!--bootstrap tagsinput js end-->
+<!--convert number to words js-->
+<script type="text/javascript" src="assets/js/convertnumbertowords.js"></script>
+<!--convert number to words js end-->
+<!--bootstrap treeview js--> 
+<script type="text/javascript" src="assets/js/bootstrap-treeview.js"></script>
+<script type="text/javascript" src="assets/js/tree.js"></script>
+<!--bootstrap treeview js--> 
+<script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>

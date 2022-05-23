@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.103" height="21.859" viewBox="0 0 23.103 21.859">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_366" data-name="Rectangle 366" width="10" height="10" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3609" data-name="Group 3609" transform="translate(-1257.442 -25)">
+    <g id="Rectangle_640" data-name="Rectangle 640" transform="translate(1257.442 25)" fill="#fff" stroke="#afdbfe" stroke-width="1">
+      <rect width="23.103" height="21.859" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="22.103" height="20.859" rx="3.5" fill="none"/>
+    </g>
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(1263.802 31)" clip-path="url(#clip-path)">
+      <path id="caret-down-svgrepo-com" d="M17.4,9.455a.872.872,0,0,1,0,1.183L13.19,15.1a.759.759,0,0,1-1.116,0l-4.211-4.46a.872.872,0,0,1,0-1.183.759.759,0,0,1,1.116,0l3.652,3.869,3.652-3.869A.759.759,0,0,1,17.4,9.455Z" transform="translate(-7.404 -6.981)" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

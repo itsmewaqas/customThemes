@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-icon6Active">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="icon6Active" clip-path="url(#clip-icon6Active)">
+    <g id="JnmJ3y.tif" transform="translate(4.465 4.461)">
+      <g id="Group_3366" data-name="Group 3366" transform="translate(0)">
+        <path id="Path_310" data-name="Path 310" d="M1769.818,766.118h-3.773q-2.563,0-5.126,0a.775.775,0,0,1-.882-.9,10.534,10.534,0,1,1,12.6,10.474,14.96,14.96,0,0,1-1.96.2.751.751,0,0,1-.863-.842q0-4.315,0-8.629Zm1.507,8.258a9.019,9.019,0,1,0-9.764-9.764h8.861c.626,0,.9.276.9.9q0,4.291,0,8.583Z" transform="translate(-1760.037 -754.819)" fill="rgba(14,76,127,0.97)"/>
+        <path id="Path_311" data-name="Path 311" d="M1773.336,1026.995q1.528,0,3.055,0a.757.757,0,0,1,.839.845q0,3.055,0,6.111a.75.75,0,0,1-1.069.77,10.413,10.413,0,0,1-6.651-6.639.757.757,0,0,1,.794-1.087Zm2.417,5.937v-4.422h-4.417A9.065,9.065,0,0,0,1775.753,1032.932Z" transform="translate(-1768.999 -1014.192)" fill="rgba(14,76,127,0.97)"/>
+      </g>
+    </g>
+  </g>
+</svg>

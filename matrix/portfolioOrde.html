@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="assets/css/bootstrap5.css" rel='stylesheet' type='text/css' />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="dashboardHeader">
+            <a href="javascript:;" class="logo"><img src="assets/images/logo.png" alt="" /> </a>
+            <a id="collapsedSidebar" class="hamburger"><img src="assets/images/menu.png" alt="" /></a>
+            <a class="headerBtn headerBtn2">
+                <img src="assets/images/logout.svg" alt="" />
+            </a>
+            <a class="headerBtn">
+                <img src="assets/images/userPic.png" alt="" />
+                Admin
+                <img src="assets/images/headerAro.svg" alt="" />
+            </a>
+        </div>
+        <div class="dashboardSitebar">
+            <ul id="menu">
+                <li class="active"><a href="javascript:;"><i class="icon1"></i>
+                        <title>dashboard</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon2"></i>
+                        <title>Transaction</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon3"></i>
+                        <title>Entities Managment</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon4"></i>
+                        <title>Steups</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon5"></i>
+                        <title>Reports</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon6"></i>
+                        <title>User Manag,& Security</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon7"></i>
+                        <title>User</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon8"></i>
+                        <title>Manag</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon9"></i>
+                        <title>Security</title>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="dashboardContainer">
+            <div class="container-fluid">
+                <div class="clearfix">
+                    <p class="text-dark"> Subscription/Buy <img src="./assets/images/bradeArrow.svg" alt="" /> Order
+                        Detail</p>
+                </div>
+                <div class="clearfix">
+                    <h3>Order Details
+                        <button type="button" class="customBtn"><img src="./assets/images/portfolioIcon.svg" alt="" />
+                            Create Portfolio</button>
+                        <button type="button" class="customBtn"><img src="./assets/images/printerIcon.svg" alt="" />
+                            Printer</button>
+                        <button type="button" class="customBtn"><img src="./assets/images/summaryIcon.svg" alt="" />
+                            Summary</button>
+                    </h3>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="formBox clearfix">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Application Number</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Activity</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">CIF</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Is For Proprietary Book</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="" name=""
+                                            value="something" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Master Company</label>
+                                    <select class="form-select form-select-sm" disabled>
+                                        <option>All</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Status</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Account Number</label>
+                                    <input type="text" class="form-control form-control-sm" id=""
+                                        placeholder="000111852369741" name="" disabled />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Underlying ProfileDate</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Account Status</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Account Balance</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Product Type</label>
+                                    <select class="form-select form-select-sm" disabled>
+                                        <option>All</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Branch</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Investment Currency</label>
+                                    <select class="form-select form-select-sm" disabled>
+                                        <option>All</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Sales Branch</label>
+                                    <select class="form-select form-select-sm" disabled>
+                                        <option>All</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Nationality</label>
+                                    <select class="form-select form-select-sm" disabled>
+                                        <option>All</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Passport\Identification No</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Business Phone</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Business\Employer Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Customer Address</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Mobile Phone</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Fax Number</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> PO Box</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Reference Number</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">City </label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Application Date</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Country</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Customer Type</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Date of Birth </label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> IBN</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Subscription Plan</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Plan Contribution</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <h3>Funds Details</h3>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="formBox clearfix">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Subscription Amount</label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3">Relation Manager </label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder="" name=""
+                                        disabled />
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <label class="form-label mt-3"> Proportion </label>
+                                    <input type="text" class="form-control form-control-sm" id="" placeholder=""
+                                        name="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <h3>Relationship Manager</h3>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="formBox clearfix">
+                            <div class="row">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#tab1">Funds Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#tab2">Relationship Manager</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="tab1" class="container tab-pane active">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No</th>
+                                                        <th>Product</th>
+                                                        <th>Type</th>
+                                                        <th>Currency</th>
+                                                        <th>Quantity/Notional</th>
+                                                        <th>Total Cost</th>
+                                                        <th>Amount</th>
+                                                        <th>Unit Value</th>
+                                                        <th>Market Value</th>
+                                                        <th>Initial Value</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Regular Saving Aggressive</td>
+                                                        <td>Funds</td>
+                                                        <td>AED</td>
+                                                        <td>76,708.58</td>
+                                                        <td>98,986.47</td>
+                                                        <td>0.96</td>
+                                                        <td>1.0000</td>
+                                                        <td>76,708.58</td>
+                                                        <td>
+                                                            <a href="javascript:;"><img class="tIcon"
+                                                                    src="assets/images/viewIcon.svg" alt="" /></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Regular Saving Aggressive</td>
+                                                        <td>Funds</td>
+                                                        <td>AED</td>
+                                                        <td>76,708.58</td>
+                                                        <td>98,986.47</td>
+                                                        <td>0.96</td>
+                                                        <td>1.0000</td>
+                                                        <td>76,708.58</td>
+                                                        <td>
+                                                            <a href="javascript:;"><img class="tIcon"
+                                                                    src="assets/images/viewIcon.svg" alt="" /></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div id="tab2" class="container tab-pane fade"><br>
+                                        <p>tab2 content here</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="formBox clearfix">
+                            <div class="row">
+
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#tab3">Remarks</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#tab4">Related Documents</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#tab5">Exceptions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#tab6">Check List</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="tab3" class="container tab-pane active">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No</th>
+                                                        <th>Details</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Action Form not Attached</td>
+                                                        <td>Open</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>This Product is not allowed for the specified age group</td>
+                                                        <td>Open</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div id="tab4" class="container tab-pane fade">
+                                        <p>tab2</p>
+                                    </div>
+                                    <div id="tab5" class="container tab-pane fade">
+                                        <p>tab3</p>
+                                    </div>
+                                    <div id="tab6" class="container tab-pane fade">
+                                        <p>tab4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Matrix &copy; All Rights Reserved </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap5.js"></script>
+    <script type="text/javascript" src="assets/js/Chart.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
+<!-- https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/ -->

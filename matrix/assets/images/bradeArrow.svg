@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_642" data-name="Rectangle 642" width="8.018" height="8.018" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4963" data-name="Group 4963" transform="translate(-444 -120)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="7.5" cy="7.5" r="7.5" transform="translate(444 120)" fill="#06406f"/>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(455.811 123.259) rotate(90)" clip-path="url(#clip-path)">
+      <path id="caret-down-svgrepo-com" d="M15.464,13.667a.633.633,0,0,0,0-.9L12.088,9.4a.633.633,0,0,0-.9,0L7.817,12.772a.633.633,0,0,0,.9.9l2.928-2.928,2.928,2.928A.633.633,0,0,0,15.464,13.667Z" transform="translate(-7.449 -7.523)" fill="#fff" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

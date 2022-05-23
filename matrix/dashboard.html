@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Matrix</title>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link href="assets/css/bootstrap5.css" rel='stylesheet' type='text/css' />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="main">
+        <div class="dashboardHeader">
+            <a href="javascript:;" class="logo"><img src="assets/images/logo.png" alt="" /> </a>
+            <a id="collapsedSidebar" class="hamburger"><img src="assets/images/menu.png" alt="" /></a>
+            <a class="headerBtn headerBtn2">
+                <img src="assets/images/logout.svg" alt="" />
+            </a>
+            <a class="headerBtn">
+                <img src="assets/images/userPic.png" alt="" />
+                Admin
+                <img src="assets/images/headerAro.svg" alt="" />
+            </a>
+        </div>
+        <div class="dashboardSitebar">
+            <ul id="menu">
+                <li class="active"><a href="javascript:;"><i class="icon1"></i>
+                        <title>dashboard</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon2"></i>
+                        <title>Transaction</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon3"></i>
+                        <title>Entities Managment</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon4"></i>
+                        <title>Steups</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon5"></i>
+                        <title>Reports</title>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="javascript:;">Developer</a></li>
+                        <li><a href="javascript:;">Project</a></li>
+                        <li><a href="javascript:;">Project Financial </a></li>
+                        <li><a href="javascript:;">Unit</a></li>
+                        <li><a href="javascript:;">Investor</a></li>
+                        <li><a href="javascript:;">Milestone</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon6"></i>
+                        <title>User Manag,& Security</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon7"></i>
+                        <title>User</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon8"></i>
+                        <title>Manag</title>
+                    </a></li>
+                <li><a href="javascript:;"><i class="icon9"></i>
+                        <title>Security</title>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="dashboardContainer">
+            <div class="container-fluid">
+                <div class="clearfix">
+                    <h2>Dashboard</h2>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox clearfix">
+                            <h4>Wealth Management</h4>
+                            <div>
+                                <p class="customItem">Pending Order<span>15</span></p>
+                                <p class="customItem">Transaction Amount<i>50,800</i></p>
+                                <hr>
+                                <p class="customItem">Total Portfolio<span>35</span></p>
+                                <p class="customItem">Total Value<i>15,060,260</i></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox">
+                            <h4>Proprietary Book</h4>
+                            <div>
+                                <p class="customItem">Pending Order<span>10</span></p>
+                                <p class="customItem">Transaction Amount<i>30,200</i></p>
+                                <hr>
+                                <p class="customItem">Total Portfolio<span>07</span></p>
+                                <p class="customItem">Total Value<i>12,500,490</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox">
+                            <h4>Wealth Management Top Product</h4>
+                            <canvas id="barChart1" style="width:100%;max-width:600px;padding: 15px;"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox">
+                            <h4>Prop Book Top Product</h4>
+                            <canvas id="barChart2" style="width:100%;max-width:600px;padding: 15px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox">
+                            <h4>Order Processing Fee</h4>
+                            <canvas id="pieChart" style="width:100%;max-width:600px;padding: 15px;"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="dataBox">
+                            <h4>Upcoming Corporate</h4>
+                            <div class="table-responsive">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>S.No</th>
+                                            <th>Product Name</th>
+                                            <th>Event Type</th>
+                                            <th>Ex Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>Emmar</td>
+                                            <td>Cash Devident</td>
+                                            <td>25 03 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02</td>
+                                            <td>Tamweel</td>
+                                            <td>Bonus Share</td>
+                                            <td>02 04 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03</td>
+                                            <td>Almak</td>
+                                            <td>Cash Devident</td>
+                                            <td>10 04 2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04</td>
+                                            <td>Emmar</td>
+                                            <td>Cash Devident</td>
+                                            <td>15 03 2022</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Matrix &copy; All Rights Reserved </p>
+        </div>
+    </div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap5.js"></script>
+<script type="text/javascript" src="assets/js/Chart.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
+<!-- https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/ -->
